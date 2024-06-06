@@ -15,6 +15,7 @@ use Spatie\FlareClient\View;
 */
 
 Route::get('/', function () {
+    dd("I'M here!");
     return view('welcome');
 });
 
