@@ -16,7 +16,7 @@ use Spatie\FlareClient\View;
 
 Route::get('/', function () {
     return response()->json([
-        'message' => "I'M here! CI | CD SUCCESS"
+        'message' => "I'M here! CI | CD SUCCESS , KORA"
     ]);
     // dd("I'M here! CI | CD SUCCESS");
     // return view('welcome');
