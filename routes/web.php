@@ -15,6 +15,7 @@ use Spatie\FlareClient\View;
 */
 
 Route::get('/', function () {
+    dd("I'M AMELIA CICD TESTING");
     return response()->json([
         'message' => "I'M here! CI | CD SUCCESS , KORA"
     ]);
