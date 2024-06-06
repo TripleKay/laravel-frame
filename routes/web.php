@@ -15,8 +15,11 @@ use Spatie\FlareClient\View;
 */
 
 Route::get('/', function () {
-    dd("I'M here!");
-    return view('welcome');
+    return response()->json([
+        'message' => "I'M here! CI | CD SUCCESS"
+    ]);
+    // dd("I'M here! CI | CD SUCCESS");
+    // return view('welcome');
 });
 
 Route::get('/admin-dashboard',function () {
